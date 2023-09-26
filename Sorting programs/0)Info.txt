@@ -1,0 +1,13 @@
+There are many sorting algorithms that can be used to arrange data in a specific order, such as ascending or descending. Some of the most common sorting algorithms are:
+
+- Bubble sort: This algorithm compares each pair of adjacent elements in an array and swaps them if they are in the wrong order. It repeats this process until the array is sorted. The time complexity of bubble sort is O(n^2) in the worst and average case, and O(n) in the best case when the array is already sorted.
+
+- Selection sort: This algorithm finds the smallest element in an unsorted part of the array and swaps it with the first element of that part. It repeats this process until the entire array is sorted. The time complexity of selection sort is O(n^2) in all cases.
+
+- Merge sort: This algorithm divides the array into two halves, recursively sorts each half, and then merges them back together in a sorted order. The time complexity of merge sort is O(n log n) in all cases.
+
+- Insertion sort: This algorithm iterates over the array and inserts each element into its correct position in a sorted part of the array. It repeats this process until the entire array is sorted. The time complexity of insertion sort is O(n^2) in the worst and average case, and O(n) in the best case when the array is already sorted or nearly sorted.
+
+- Quick sort: This algorithm chooses a pivot element from the array, partitions the array into two subarrays such that all elements less than the pivot are in the left subarray and all elements greater than or equal to the pivot are in the right subarray, and then recursively sorts each subarray. The time complexity of quick sort is O(n log n) in the best and average case, and O(n^2) in the worst case when the array is already sorted or nearly sorted.
+
+- Heap sort: This algorithm builds a binary heap from the array, repeatedly extracts the maximum element from the heap and places it at the end of the sorted part of the array, and then reduces the size of the heap by one. The time complexity of heap sort is O(n log n) in all cases.
